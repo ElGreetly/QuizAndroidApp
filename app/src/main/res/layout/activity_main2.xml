@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.recyclerviewquiz.Main2Activity"
+    android:background="@drawable/books2">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycle_id"
+        android:scrollbars="none"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Result"
+        android:background="@drawable/my_button"
+        android:layout_gravity="center_horizontal"
+        android:textSize="19sp"
+        android:id="@+id/result"
+        android:textColor="#99FFFFFF"
+        />
+
+</LinearLayout>
